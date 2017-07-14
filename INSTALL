@@ -39,31 +39,3 @@ else
 fi
 
 docker build -t arne/opengl --build-arg http_proxy=$http_proxy --build-arg https_proxy=$https_proxy .
-
-exit
-
-git clone https://github.com/thewtex/docker-opengl.git
-
-cat <<EOM
-
-Follow the following steps now:
-
-1. run 'docker-opengl/run.sh'
-
-2. run 'docker exec -it opengl bash'
-2a. set http(s) proxies if needed
-2b. inside this docker container, cd to '/home/user/work/spring/AI/Skirmish/NullErlangAI'
-2c. run './init'
-2d. run './build'
-2e. run './run'
-
-3. run 'docker exec -it opengl bash'
-3a.set http(s) proxies if needed
-3b. inside this docker container, cd to '/home/user/work/tccai/'
-3c. run './init'
-3d. run './build'
-3e. run './run'
-
-4. point your browser to http://localhost:6080
-
-EOM
