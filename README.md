@@ -1,7 +1,8 @@
 # tccai-dev
 
 A development environment/testbed for [TccAI](https://github.com/arnehilmann/tccai) (a skirmish AI for
-[spring-rts](https://springrts.com/)).
+[spring-rts](https://springrts.com/)) and [NullErlangAI](https://github.com/arnehilmann/NullErlangAI) 
+(the erlang c-node counterpart, linked into the spring engine).
 
 Based on [thewtex/opengl](https://hub.docker.com/r/thewtex/opengl/)
 
